@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="shortcut icon" type="x-icon" href="images/Icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>AIM TRAINER</title>
+</head>
+
+<header>
+  <img class="logo" src="images/logo.png" alt="logo">
+    <p class="hello">Shoot the Enemies!</p>
+  <a class="cta" href="index.html"><button>GO BACK</button></a>
+</header>
+<body class="game">
+  <div id="gameArea">
+    <div id="timer">Time: 0s</div> <!-- Timer displayed in the top-left corner -->
+    <div class="target"><img src="Capsulers/duckyside.png" alt="target"></div>
+    <div class="target"><img src="Capsulers/momoi.png" alt="target"></div>
+    <div class="target"><img src="Capsulers/ember.png" alt="target"></div>
+    <div class="target"><img src="Capsulers/MK.R.png" alt="target"></div>
+    <div id="winMessage" class="hidden">
+        You Win! Time: <span id="finalTime"></span>s
+        <br>
+        <button id="tryAgain">Try Again</button> <!-- New button to restart the game -->
+      </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
